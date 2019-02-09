@@ -1,2 +1,2 @@
-<p style="text-align: center;"><h1>Under Development</h1></p>
+<h1 style="text-align: center;">Under Development</h1>
 ---
