@@ -204,7 +204,6 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
-    multi_json (1.13.1)
     multipart-post (2.0.0)
     nokogiri (1.10.1-x64-mingw32)
       mini_portile2 (~> 2.4.0)
@@ -216,8 +215,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rollbar (2.18.2)
-      multi_json
     rouge (2.2.1)
     ruby-enum (0.7.2)
       i18n
@@ -246,7 +243,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  rollbar
 
 BUNDLED WITH
    2.0.1
