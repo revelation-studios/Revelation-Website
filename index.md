@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html>
 <!-- ALWAYS INCLUDE HEAD -->
 {% include head.html %}
 
 <h1 style="text-align: center;">Under Development</h1>
-<ul>
-</html>
+---
