@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-{% include head.md %}
+{% include head.html %}
 
 [//]: # (ALWAYS INCLUDE HEAD)
 
