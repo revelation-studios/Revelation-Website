@@ -10,6 +10,7 @@
     <!-- https://bulma.io/documentation/ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <script>
   document.addEventListener('DOMContentLoaded', () => {
 
@@ -37,11 +38,26 @@
 
 });
 </script>
+    
     <style>
       html, head, body, pre, code, kbd, samp {
           font-family: 'Ubuntu';
       }
-    </style>
+      
+   @media screen and (max-width: 1023px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar-brand {
+    min-width: 100%;
+  }
+  .navbar-menu {
+    margin-left: auto;
+    min-width: 50%;
+  }
+}
+</style>
   </head>
   <body>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
