@@ -36,6 +36,19 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
+  var $navbarDropdowns = Array.prototype.slice.call(document.querySelectorAll('.navbar-item.has-dropdown'), 0);
+
+  // Check if there are any navbar dropdowns
+  if ($navbarDropdowns.length > 0) {
+
+    // Add a click event on each of them
+    $navbarDropdowns.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        // Toggle the class on "navbar dropdown"
+        $el.classList.toggle('is-active');
+      });
+    });
+  }
 });
 </script>
     
@@ -88,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
           Other
         </a>
 
-        <div class="navbar-dropdown is-boxed has-dropdown is-hoverable">
+        <div class="navbar-dropdown is-boxed has-dropdown">
           <a class="navbar-item" href="https://github.com/revelation-studios/Revelation-Website/issues">
             Report a issue
           </a>
